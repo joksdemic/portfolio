@@ -150,6 +150,68 @@ footer {
     color: #F4C3B9;
 }
 
+/*INDEX.HTML*/
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.github .icon {
+    transition: fill 0.3s ease;
+    margin-right: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.github .icon:hover {
+    fill: #F4C3B9;
+    cursor: pointer;
+}
+
+.text {
+    margin-top: 70px;
+    transition: color 0.3s ease;
+    cursor: default;
+}
+
+.text h1 {
+    font-size: 40px;
+    color: #8f8f8f;
+}
+
+.text h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #8f8f8f;
+}
+
+.text p {
+    font-size: 15px;
+    color: #8f8f8f;
+}
+
+.text h1:hover,
+.text h2:hover,
+.text .paragraph:hover {
+    color: #F4C3B9;
+}
+
+.text h1,
+.text h2,
+.text .paragraph {
+    transition: color 0.3s ease;
+}
+
+
+
+
 
 
 
