@@ -11,3 +11,4 @@
 11. Style contact form
 12. Add form validation for message length and required fields
 13. Fix validation
+14. Update footer with GitHub icon
