@@ -39,3 +39,14 @@ document.addEventListener('keydown', function(e) {
     }
 });
 
+function validateForm() {
+    let message = document.getElementById('message').value;
+
+    console.log("Message length:", message.length);
+
+    if(message.length > 50) {
+        alert("Poruka ne sme imati vise od 50 karaktera.");
+        return false;
+    }
+    return true;
+}

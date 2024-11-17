@@ -173,7 +173,7 @@ body {
     border: none;
     background: linear-gradient(45deg, #FBCDC6, #EEE8E4, #F3CDC2, #F9C1B9, #FCF3E7);
     color: #EFEFEF;
-    border-radius: 3rem;
+    border-radius: 10rem;
     cursor: pointer;
 }
 
